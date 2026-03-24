@@ -1,4 +1,5 @@
 FROM python:3.11-slim
 WORKDIR /app
 COPY . .
+EXPOSE 10000
 CMD ["python3", "main.py"]
